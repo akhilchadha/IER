@@ -6,7 +6,7 @@ Physical activity has been a key factor for analysing how a person has been look
 #### 1. Introductory information
 Download the fitbit dataset from the repository on Gitlab. Do not change anything in the dataset file downloaded. The dataset information is as follows:
 
-Fitbit dataset: Data_IER.csv which then gets saved as **Data_analysis_Data_IER.csv** upon downloading. If it doesn't then kindly change the name of the file to **Data_analysis_Data_IER.csv**
+Fitbit dataset: Data_IER.csv which then gets saved as **Data_analysis_Data_IER.csv** upon downloading if it isn't zipped as a folder from the repository. In such a case, kindly change the name of the file to **Data_IER.csv** before running the matlab code.
 
 A warning message is also sent at the start of the program to allow you to cross-check the dataset file name.
 
@@ -19,7 +19,7 @@ This dataset is coming from a study with previous students. The students were as
 For this study, MATLAB2018b was used to create the code and analyse the data. The code has comments in place along with sections to distribute the code as per the action/test being performed. Upon running the code, all figures and results are obtained as seen in the paper. The different t-test results can be observed from the workspace under stats1 and stats2 structs.
 
 To run the code, open main.m and run the file. It is recommended to have atleast MATLAB version 2018b installed as some functions and commands might not work on previous versions.
-Further, you should have the Data_analysis_Data_IER.csv file in the same folder as the main.m file and both should be in the current path on MATLAB.
+Further, you should have the Data_IER.csv file in the same folder as the main.m file and both should be in the current path on MATLAB.
 
 The code is structures in the following way:
 - Dataset initialisation and breakup of the data based on year and living conditions
