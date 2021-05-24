@@ -5,8 +5,10 @@
 %%
 clc;
 clear;
+warning("Kindly make sure that the dataset file is in the same folder and that the folder path is added on matlab");
+warning("If the name of the dataset file isn't 'Data_analysis_Data_IER.csv' then kindly change it to Data_analysis_Data_IER.csv from Data_IER.csv");
 %% Initialising Data-Set
-[num,string,data]=xlsread('Data_analysis_Data_IER.csv'); %Importing Data-Set, If the name of the file isn't this then kindly change it to Data_analysis_Data_IER.csv from Data_IER.csv
+[num,string,data]=xlsread('Data_analysis_Data_IER.csv'); %Importing Data-Set
 for i=1:193
     if num(i,2)==2019
         data_2019(i,:)=num(i,:); %Separating Data for 2019
