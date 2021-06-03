@@ -92,7 +92,7 @@ std_li_2020=std(data_2020_li);
 figure(1)
 plot(data_2019_mo)
 hold on
-plot(data_2020_mo)
+plot(data_2020_mo,'--')
 hold off
 legend('2019','2020')
 xlabel('Participants')
@@ -102,7 +102,7 @@ title('Moved Out')
 figure(2)
 plot(data_2019_li)
 hold on
-plot(data_2020_li)
+plot(data_2020_li,'--')
 hold off
 legend('2019','2020')
 xlabel('Participants')
@@ -130,7 +130,7 @@ figure(3)
 subplot(2,1,1)
 plot(data_2019_moved(:,94))
 hold on
-plot(data_2020_moved(:,94))
+plot(data_2020_moved(:,94),'--')
 hold off
 legend('2019','2020')
 xlabel('Participants')
@@ -140,7 +140,7 @@ title('Moved Out')
 subplot(2,1,2)
 plot(data_2019_living(:,94))
 hold on
-plot(data_2020_living(:,94))
+plot(data_2020_living(:,94),'--')
 hold off
 legend('2019','2020')
 xlabel('Participants')
